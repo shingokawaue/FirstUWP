@@ -1,0 +1,1 @@
+C:\repository\FirstUWP\UWPmatsuno\UWPmatsuno\UWPmatsuno.csproj;x86

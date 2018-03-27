@@ -10,62 +10,104 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <!-- Gridコントロールを上下に2分割する -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5*" />
 
         </Grid.RowDefinitions>
         
 
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="3*" />
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="4*" />
 
         </Grid.ColumnDefinitions>
 
+        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.ColumnSpan="3">
+            <TextBlock  Text="1日ごとの給料計算(自給)"  />
+        </Viewbox>
 
-        <TextBlock 
-            Grid.Column="1"
-             Text="1日ごとの給料計算(自給)" 
-            HorizontalAlignment="Center" VerticalAlignment="Top"
-                   FontSize="48"
-                   />
+        <Viewbox  Stretch="Uniform" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" MaxWidth="400">
 
-
-        <TextBlock 
+            <TextBlock 
             x:Name="TextBlock_Message"
-            Grid.Column="1" Grid.Row="1"
              Text="出勤、退社時間" 
             HorizontalAlignment="Center" VerticalAlignment="Top"
-                   FontSize="48"
                    />
+        </Viewbox>
 
 
+        
 
-        <Button
-            Grid.Row="3" Grid.Column="1" 
-            x:Name="Button_Calc" Content="計算"
-             HorizontalAlignment="Center" Margin="0,20" 
-                 FontSize="36"
+        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="2" MaxWidth="200" >
+            <TextBlock 
+            x:Name="TextBlock_Shukkin" 
+             Text="出勤時間" 
+                   />
+        </Viewbox>
+
+
+        <Viewbox  Stretch="Uniform" Grid.Column="3" Grid.Row="2" MaxWidth="200" >
+                <TextBlock 
+            x:Name="TextBlock_Taisha"
+             Text="退社時間" 
+                   />
+        </Viewbox>
+
+        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="3" MaxWidth="200">
+            <TextBox x:Name="TextBox_Shukkin" />
+        </Viewbox>
+
+
+        <Viewbox  Stretch="Uniform" Grid.Column="3" Grid.Row="3" MaxWidth="200">
+            <TextBox  x:Name="TextBox_Taisha" />
+        </Viewbox>
+
+        
+        
+        
+        <Viewbox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" >
+            <Button 
+                x:Name="Button_Calc" Content="計算"
             Click="Button_Calc_Click"
                 />
-        <TextBox 
-            Grid.Row="2" Grid.Column="1"
-            x:Name="TextBox_StartingTime"
-             HorizontalAlignment="Left"  VerticalAlignment="Top"
-            FontSize="36"
-            />
+        </Viewbox>
 
-        <TextBox 
-            x:Name="TextBox_LeavingTime"
-            Grid.Row="2" Grid.Column="1"
-             HorizontalAlignment="Right"  VerticalAlignment="Top"
-            FontSize="36"
-            />
+        <Viewbox Grid.Row="3" Grid.Column="4"  >
+
+            <ToggleSwitch 
+                x:Name="ToSw_Kyuukei" 
+                Header="休憩時間をひく" IsOn="True" Toggled="ToSw_Kyuukei_Toggled"
+                />
+        </Viewbox>
+
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="0" >
+
+            <TextBlock 
+            x:Name="TextBlock_ResultTS"
+             Text="" 
+            HorizontalAlignment="Center" VerticalAlignment="Top"
+                   FontSize="48"
+                   />
+        </Viewbox>
+
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3"  >
+
+            <TextBlock 
+            x:Name="TextBlock_ResultMoney"
+            Grid.Column="1" Grid.Row="5"
+             Text="" 
+            HorizontalAlignment="Center" VerticalAlignment="Top"
+                   FontSize="48"
+                   />
+        </Viewbox>
 
     </Grid>
 </Page>

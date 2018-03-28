@@ -105,6 +105,7 @@
     <Compile Include="SettingPage.xaml.cs">
       <DependentUpon>SettingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainPageData.cs" />
     <Compile Include="ToLibrary\CalcWorkingTime.cs" />
   </ItemGroup>
   <ItemGroup>

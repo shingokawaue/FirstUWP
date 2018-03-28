@@ -34,11 +34,14 @@ ApplicationDataContainer container = ApplicationData.Current.LocalSettings;
         private void btnOK_Click(object sender, RoutedEventArgs e)
         {
 
-            if(Txtbx_Jikyuu.Text != "")
+            if(Txtbx_Jikyuu.Text != container.Values["Jikyuu"].ToString())
             {
                 int i;
-                int.TryParse(Txtbx_Jikyuu.Text , out i);
-                container.Values["Jikyuu"] = i;
+                if(int.TryParse(Txtbx_Jikyuu.Text , out i))
+                {
+                    container.Values["Jikyuu"] = i;
+                }
+
             }
 
             this.Frame.Navigate(typeof(MainPage), "SettingPage");
@@ -49,5 +52,21 @@ ApplicationDataContainer container = ApplicationData.Current.LocalSettings;
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        // ページ遷移直後にOnNavigatedToイベントハンドラーが呼び出される
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+                Txtbx_Jikyuu.Text = container.Values["Jikyuu"].ToString();
+        
+            base.OnNavigatedTo(e);
+
+        }
+
+
+
+
+
+
+
     }
 }

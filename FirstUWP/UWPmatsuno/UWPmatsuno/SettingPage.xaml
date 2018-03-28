@@ -36,7 +36,8 @@
 
 
 
-        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="2" MaxHeight="100" >
+        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="2" MaxHeight="80" 
+                  Grid.ColumnSpan="3" >
             <TextBlock 
             x:Name="TextBlock_Shukkin" 
              Text="時給" 
@@ -44,14 +45,9 @@
         </Viewbox>
 
 
-        <Viewbox  Stretch="Uniform" Grid.Column="3" Grid.Row="2" MaxWidth="200" >
-            <TextBlock 
-            x:Name="TextBlock_Taisha"
-             Text="退社時間" 
-                   />
-        </Viewbox>
 
-        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="3" MaxWidth="200">
+        <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="3" 
+                  Grid.ColumnSpan="3" MaxHeight="100">
             <TextBox x:Name="Txtbx_Jikyuu" />
         </Viewbox>
 

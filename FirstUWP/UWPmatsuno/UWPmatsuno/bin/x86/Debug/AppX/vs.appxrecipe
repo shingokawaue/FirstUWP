@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SHINGO-PC</Machine>
-    <WindowsUser>shingo</WindowsUser>
+    <Machine>YUKI-PC</Machine>
+    <WindowsUser>ゆき</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>25A035618EA7BB44B83A4DE823A0C54FC987BB407561EA2535F06BC3FB7EB292</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>99deab26-f672-4cfa-9aec-6874c4053446_1.0.4.0_x86__abpp4jbt26yh4</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>A2689CBC2FC839515C6391BBA19E41455AFDA19E31E903AEEC41DBC31B373302</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>99deab26-f672-4cfa-9aec-6874c4053446_0.9.6.0_x86__abpp4jbt26yh4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>99deab26-f672-4cfa-9aec-6874c4053446_abpp4jbt26yh4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>99deab26-f672-4cfa-9aec-6874c4053446</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=ゆき</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.4.0</RegisteredVersion>
+    <RegisteredVersion>0.9.6.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:22:22.294</Modified>
+      <Modified>2018-03-28T12:55:11.549</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\UWPmatsuno.exe">
       <PackagePath>entrypoint\UWPmatsuno.exe</PackagePath>
-      <Modified>2018-03-28T00:22:21.942</Modified>
+      <Modified>2018-03-28T12:55:06.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -498,239 +498,239 @@
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:16:08.268</Modified>
+      <Modified>2018-03-28T00:44:31.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:16:32.930</Modified>
+      <Modified>2018-03-28T00:44:31.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:17:09.280</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.419</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.623</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:48.842</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:48.854</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:48.868</Modified>
+      <Modified>2018-03-28T00:44:31.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:48.883</Modified>
+      <Modified>2018-03-28T00:44:31.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:48.908</Modified>
+      <Modified>2018-03-28T00:44:31.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.864</Modified>
+      <Modified>2018-03-28T00:44:31.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.922</Modified>
+      <Modified>2018-03-28T00:44:31.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.000</Modified>
+      <Modified>2018-03-28T00:44:31.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.482</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:19:08.121</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:19:25.598</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:19:46.935</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:31:58.060</Modified>
+      <Modified>2018-03-28T00:44:31.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.764</Modified>
+      <Modified>2018-03-28T00:44:31.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.824</Modified>
+      <Modified>2018-03-28T00:44:31.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.784</Modified>
+      <Modified>2018-03-28T00:44:31.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.795</Modified>
+      <Modified>2018-03-28T00:44:31.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.634</Modified>
+      <Modified>2018-03-28T00:44:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.645</Modified>
+      <Modified>2018-03-28T00:44:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.656</Modified>
+      <Modified>2018-03-28T00:44:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.687</Modified>
+      <Modified>2018-03-28T00:44:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.697</Modified>
+      <Modified>2018-03-28T00:44:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.708</Modified>
+      <Modified>2018-03-28T00:44:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.753</Modified>
+      <Modified>2018-03-28T00:44:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.718</Modified>
+      <Modified>2018-03-28T00:44:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.729</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.494</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.507</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.520</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.535</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.558</Modified>
+      <Modified>2018-03-28T00:44:31.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.053</Modified>
+      <Modified>2018-03-28T00:44:31.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.073</Modified>
+      <Modified>2018-03-28T00:44:31.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.100</Modified>
+      <Modified>2018-03-28T00:44:31.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.242</Modified>
+      <Modified>2018-03-28T00:44:31.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-03-27T15:42:55.648</Modified>
+      <Modified>2018-03-27T09:14:29.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:50.113</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T19:18:44.258</Modified>
+      <Modified>2018-03-28T00:44:31.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.669</Modified>
+      <Modified>2018-03-28T00:44:31.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.774</Modified>
+      <Modified>2018-03-28T00:44:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T18:33:49.134</Modified>
+      <Modified>2018-03-28T00:44:31.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-27T15:42:55.839</Modified>
+      <Modified>2018-03-27T09:14:29.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\UWPmatsuno.xr.xml">
       <PackagePath>UWPmatsuno.xr.xml</PackagePath>
-      <Modified>2018-03-27T22:50:35.241</Modified>
+      <Modified>2018-03-28T00:52:03.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -739,11 +739,11 @@
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-27T22:50:36.255</Modified>
+      <Modified>2018-03-28T12:55:09.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\Core\UWPmatsuno.exe">
       <PackagePath>UWPmatsuno.exe</PackagePath>
-      <Modified>2018-03-28T00:22:22.290</Modified>
+      <Modified>2018-03-28T12:55:11.518</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

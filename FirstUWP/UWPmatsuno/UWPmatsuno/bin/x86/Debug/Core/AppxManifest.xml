@@ -7,7 +7,7 @@
 
     パッケージ マニフェスト ファイルの詳細については、http://go.microsoft.com/fwlink/?LinkID=241727 を参照してください
   -->
-  <Identity Name="99deab26-f672-4cfa-9aec-6874c4053446" Publisher="CN=ゆき" Version="1.0.4.0" ProcessorArchitecture="x86" />
+  <Identity Name="99deab26-f672-4cfa-9aec-6874c4053446" Publisher="CN=ゆき" Version="0.9.6.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="99deab26-f672-4cfa-9aec-6874c4053446" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>日給計算ver0.9</DisplayName>

@@ -49,11 +49,14 @@ namespace UWPmatsuno
                 container.Values["Jikyuu"] = 1000;
             }
             txtblk_Jikyuu.Text = "時給 : " + jikyuu.ToString();
-
-            ToSw_Kyuukei.IsOn = (container.Values["ToSw_Kyuukei.IsOn"].ToString() == "True");
-
+            if (container.Values.ContainsKey("ToSw_Kyuukei.IsOn"))
+            {
+                ToSw_Kyuukei.IsOn = (container.Values["ToSw_Kyuukei.IsOn"].ToString() == "True");
+            }
         }
-        /// ////////////////////////////////////////////////イベントハンドラ//////////////////////////////////////////////////////////////////
+
+
+        //-------------------------------イベントハンドラ↓------------------------------------------
 
 
         private void Button_Calc_Click(object sender, RoutedEventArgs e)
@@ -70,7 +73,7 @@ namespace UWPmatsuno
         {
 
             SaveSettings();
-            this.Frame.Navigate(typeof(SettingPage));
+            this.Frame.Navigate(typeof(SettingPage) );
         }
 
         // ページ遷移直後にOnNavigatedToイベントハンドラーが呼び出される
@@ -104,73 +107,72 @@ namespace UWPmatsuno
 
 
 
-
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //----------------------------------------------------------------------------------------------------
+//                                  その他のメソッド↓
+        //------------------------------------------------------------------------------------------
         private void CalcDailyWage()//日給計算
         {
             TextBlock_Message.Text = TextBox_Shukkin.Text + TextBox_Taisha.Text;
 
             //DateTimeに変換できるか確かめる
             DateTime dt ,dt2;
-            if ( !(
-                DateTime.TryParseExact(TextBox_Shukkin.Text, "H:m", System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None, out dt)
-                ) 
-                &&
-                !(
-                DateTime.TryParseExact(TextBox_Shukkin.Text, "HHmm", System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None, out dt)
-                ))
+
+            //出勤時間に入力された値がDate型に変換できるか
+            if ( !(DateTime.TryParseExact(TextBox_Shukkin.Text, "H:m", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None, out dt))  &&
+                !(DateTime.TryParseExact(TextBox_Shukkin.Text, "HHmm", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None, out dt) ))
             {
-                EnterCorrectTime(); return;//変換できなかったら
+                EnterCorrectTime(); return;//変換できなかったらリターン
             }
 
-
-            if ( !(
-                DateTime.TryParseExact(TextBox_Taisha.Text, "H:m", System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None, out dt2)
-                ) 
-                &&
-                 !(
-                DateTime.TryParseExact(TextBox_Taisha.Text, "HHmm", System.Globalization.CultureInfo.InvariantCulture,
-                System.Globalization.DateTimeStyles.None, out dt2)
-                )
-                )
+            //退社時間に入力された値がDate型に変換できるか
+            if ( !(DateTime.TryParseExact(TextBox_Taisha.Text, "H:m", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None, out dt2)) &&
+                 !( DateTime.TryParseExact(TextBox_Taisha.Text, "HHmm", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.None, out dt2)))
             {
-                EnterCorrectTime(); return;//変換できなかったら
+                EnterCorrectTime(); return;//変換できなかったらリターン
             }
 
+            //変換出来たら、dt,dt2に値が入っているので給料計算
+            TimeSpan tsTotal;
+            TimeSpan tsNight = CalcWorkingTime.NightWork(dt,dt2);
 
-            //変換出来たら、dt,dt2に値が入っている
 
-            TimeSpan ts;
-                
                 if (dt2.CompareTo(dt) > 0)
-                {
-
-                    ts = (dt2 - dt);
+                {//日をまたがない
+                tsTotal = (dt2 - dt);
                 }
                 else
-                {
-                    ts = (dt - dt2);//日またぎ
-                    ts = TimeSpan.FromHours(24) - ts;
+                {//日またぎ
+                tsTotal = (dt - dt2);
+                tsTotal = TimeSpan.FromHours(24) - tsTotal;
                 }
 
-                TextBlock_ResultTS.Text = "時間 : " + ts.Hours.ToString().PadLeft(2, '0') + ":" + ts.Minutes.ToString().PadLeft(2, '0');
+                TextBlock_ResultTS.Text = "時間 : " + tsTotal.Hours.ToString().PadLeft(2, '0') 
+                + ":" + tsTotal.Minutes.ToString().PadLeft(2, '0');
                 TextBlock_Message.Text = "出勤、退社時間";
                 //給料の計算
+
+            if(tsNight.TotalMinutes > 0)
+            {
+                TextBlock_ResultTS.Text = TextBlock_ResultTS.Text + @"
+うち深夜労働:" + tsNight.Hours + "時間" + tsNight.Minutes + "分";
+            }
+
 
                 int kyuukei = 0;
                 if (ToSw_Kyuukei.IsOn)//休憩時間を引くトグルスイッチがオンなら
                 {
-                    kyuukei = CalcWorkingTime.SubBreakTime(ref ts);
+                    kyuukei = CalcWorkingTime.SubBreakTime(ref tsTotal);
                     TextBlock_ResultTS.Text = TextBlock_ResultTS.Text + @"
 休憩時間:" + kyuukei + "分";
                 }
 
+
                 TextBlock_ResultMoney.Text = " 給料:\\" +
-                    String.Format("{0:#,0}", (ts.Hours * jikyuu + ts.Minutes * jikyuu / 60)) +
+                    String.Format("{0:#,0}", (tsTotal.Hours * jikyuu + tsTotal.Minutes * jikyuu / 60)) +
                     ".-";
 
                 bIsCalculated = true;
@@ -178,6 +180,8 @@ namespace UWPmatsuno
 
 
         }
+
+
 
 
 

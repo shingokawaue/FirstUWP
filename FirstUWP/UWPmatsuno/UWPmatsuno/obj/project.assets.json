@@ -25569,7 +25569,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shingo\\.nuget\\packages\\": {},
+    "C:\\Users\\ゆき\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
   },
@@ -25579,7 +25579,7 @@
       "projectUniqueName": "C:\\repos\\FirstUWP\\FirstUWP\\UWPmatsuno\\UWPmatsuno\\UWPmatsuno.csproj",
       "projectName": "UWPmatsuno",
       "projectPath": "C:\\repos\\FirstUWP\\FirstUWP\\UWPmatsuno\\UWPmatsuno\\UWPmatsuno.csproj",
-      "packagesPath": "C:\\Users\\shingo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\ゆき\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\FirstUWP\\FirstUWP\\UWPmatsuno\\UWPmatsuno\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -25588,7 +25588,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\shingo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ゆき\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

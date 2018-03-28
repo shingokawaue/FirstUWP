@@ -1,0 +1,1 @@
+C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\UWPmatsuno.csproj;arm

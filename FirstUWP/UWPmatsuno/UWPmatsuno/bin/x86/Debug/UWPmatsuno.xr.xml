@@ -30,10 +30,10 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="Child" />
       <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />

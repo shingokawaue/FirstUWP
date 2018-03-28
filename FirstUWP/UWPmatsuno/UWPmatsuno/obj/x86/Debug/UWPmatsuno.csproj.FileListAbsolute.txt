@@ -219,4 +219,3 @@ C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\obj\x86\Debug\MultipleQualifier
 C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\obj\x86\Debug\resources.en-us.resfiles
 C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\obj\x86\Debug\resources.en-us.resfiles.intermediate
 C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\obj\x86\Debug\ProjectArchitectures.txt
-C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\Core\ForBundle\AppxManifest.xml

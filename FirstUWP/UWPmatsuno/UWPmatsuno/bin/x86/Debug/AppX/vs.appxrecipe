@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>YUKI-PC</Machine>
-    <WindowsUser>ゆき</WindowsUser>
+    <Machine>GEISHU-PC</Machine>
+    <WindowsUser>GEISHU</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>A2689CBC2FC839515C6391BBA19E41455AFDA19E31E903AEEC41DBC31B373302</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>FB249873173CFDD04F8F7361416D8094FFEDCBA1181D84B32B71306C3F6A7748</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>99deab26-f672-4cfa-9aec-6874c4053446_0.9.6.0_x86__abpp4jbt26yh4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>99deab26-f672-4cfa-9aec-6874c4053446_abpp4jbt26yh4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>99deab26-f672-4cfa-9aec-6874c4053446</RegisteredPackageID>
@@ -31,69 +31,69 @@
     <AppXManifest Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T12:55:11.549</Modified>
+      <Modified>2018-03-28T16:13:15.462</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\UWPmatsuno.exe">
       <PackagePath>entrypoint\UWPmatsuno.exe</PackagePath>
-      <Modified>2018-03-28T12:55:06.473</Modified>
+      <Modified>2018-03-28T16:13:13.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
       <Modified>2016-06-11T13:13:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2016-07-01T08:10:48.000</Modified>
+      <Modified>2016-07-01T09:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2016-06-11T13:13:10.000</Modified>
+      <Modified>2016-06-11T14:13:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
@@ -219,25 +219,25 @@
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
       <Modified>2016-06-11T13:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-06-11T13:13:22.000</Modified>
+      <Modified>2016-06-11T14:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-06-11T13:13:24.000</Modified>
+      <Modified>2016-06-11T14:13:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2016-06-11T13:13:22.000</Modified>
+      <Modified>2016-06-11T14:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-06-11T13:13:20.000</Modified>
+      <Modified>2016-06-11T14:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2016-06-11T13:13:32.000</Modified>
+      <Modified>2016-06-11T14:13:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
@@ -247,9 +247,9 @@
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
       <Modified>2016-06-11T13:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2016-07-01T05:48:16.000</Modified>
+      <Modified>2016-07-01T06:48:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
@@ -271,13 +271,13 @@
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
       <Modified>2016-06-11T13:13:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2016-06-11T13:13:48.000</Modified>
+      <Modified>2016-06-11T14:13:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2016-06-11T13:13:50.000</Modified>
+      <Modified>2016-06-11T14:13:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
@@ -299,47 +299,47 @@
       <PackagePath>System.Net.Http.dll</PackagePath>
       <Modified>2016-06-11T13:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2016-06-11T13:13:56.000</Modified>
+      <Modified>2016-06-11T14:13:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2016-06-11T13:13:58.000</Modified>
+      <Modified>2016-06-11T14:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2016-06-11T13:14:04.000</Modified>
+      <Modified>2016-06-11T14:14:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
       <Modified>2016-06-11T13:14:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2016-06-11T13:14:08.000</Modified>
+      <Modified>2016-06-11T14:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
-      <Modified>2016-06-11T13:14:08.000</Modified>
+      <Modified>2016-06-11T14:14:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
       <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
       <Modified>2017-11-20T05:34:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2016-06-11T13:14:10.000</Modified>
+      <Modified>2016-06-11T14:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-11T13:14:06.000</Modified>
+      <Modified>2016-06-11T14:14:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-06-11T13:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
       <Modified>2017-02-09T04:26:02.000</Modified>
     </AppxPackagedFile>
@@ -347,13 +347,13 @@
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
       <Modified>2017-12-12T15:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2016-06-11T13:14:10.000</Modified>
+      <Modified>2016-06-11T14:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2016-06-11T13:14:14.000</Modified>
+      <Modified>2016-06-11T14:14:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
@@ -375,15 +375,15 @@
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
       <Modified>2016-06-11T13:14:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-11T13:14:26.000</Modified>
+      <Modified>2016-06-11T14:14:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2016-06-11T13:14:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
       <Modified>2017-02-09T04:26:02.000</Modified>
     </AppxPackagedFile>
@@ -403,9 +403,9 @@
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
       <Modified>2016-06-11T13:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2016-06-11T13:14:40.000</Modified>
+      <Modified>2016-06-11T14:14:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
@@ -475,9 +475,9 @@
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
       <Modified>2016-06-11T13:14:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\GEISHU\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2016-06-11T13:14:54.000</Modified>
+      <Modified>2016-06-11T14:14:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
@@ -498,239 +498,239 @@
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.655</Modified>
+      <Modified>2018-03-28T13:09:41.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.655</Modified>
+      <Modified>2018-03-28T13:09:41.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.671</Modified>
+      <Modified>2018-03-28T13:09:41.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.687</Modified>
+      <Modified>2018-03-28T13:09:41.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.687</Modified>
+      <Modified>2018-03-28T13:09:41.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.687</Modified>
+      <Modified>2018-03-28T13:09:41.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.687</Modified>
+      <Modified>2018-03-28T13:09:41.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.687</Modified>
+      <Modified>2018-03-28T13:09:41.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.718</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.718</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.718</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.718</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.718</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.734</Modified>
+      <Modified>2018-03-28T13:09:41.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.734</Modified>
+      <Modified>2018-03-28T13:09:41.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.734</Modified>
+      <Modified>2018-03-28T13:09:41.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.734</Modified>
+      <Modified>2018-03-28T13:09:41.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.749</Modified>
+      <Modified>2018-03-28T13:09:41.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.749</Modified>
+      <Modified>2018-03-28T13:09:41.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.749</Modified>
+      <Modified>2018-03-28T13:09:41.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.749</Modified>
+      <Modified>2018-03-28T13:09:41.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:41.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:41.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:41.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:41.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:42.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.765</Modified>
+      <Modified>2018-03-28T13:09:42.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.780</Modified>
+      <Modified>2018-03-28T13:09:42.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.780</Modified>
+      <Modified>2018-03-28T13:09:42.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.780</Modified>
+      <Modified>2018-03-28T13:09:42.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.780</Modified>
+      <Modified>2018-03-28T13:09:42.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-03-27T09:14:29.429</Modified>
+      <Modified>2018-03-26T13:27:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.702</Modified>
+      <Modified>2018-03-28T13:09:41.160</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.734</Modified>
+      <Modified>2018-03-28T13:09:41.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.749</Modified>
+      <Modified>2018-03-28T13:09:41.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T00:44:31.780</Modified>
+      <Modified>2018-03-28T13:09:42.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-27T09:14:29.469</Modified>
+      <Modified>2018-03-26T13:27:11.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\UWPmatsuno.xr.xml">
       <PackagePath>UWPmatsuno.xr.xml</PackagePath>
-      <Modified>2018-03-28T00:52:03.347</Modified>
+      <Modified>2018-03-28T16:06:24.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -739,11 +739,11 @@
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T12:55:09.871</Modified>
+      <Modified>2018-03-28T16:13:14.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x86\Debug\Core\UWPmatsuno.exe">
       <PackagePath>UWPmatsuno.exe</PackagePath>
-      <Modified>2018-03-28T12:55:11.518</Modified>
+      <Modified>2018-03-28T16:13:15.451</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -780,6 +780,15 @@
       <Architecture>ARM</Architecture>
       <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26128.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26128.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

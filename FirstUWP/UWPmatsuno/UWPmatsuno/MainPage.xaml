@@ -80,7 +80,7 @@
                 />
         </Viewbox>
 
-        <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="4"  >
+        <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="4" Margin="20,0,0,0" >
 
             <ToggleSwitch 
                 x:Name="ToSw_Kyuukei" 
@@ -109,8 +109,21 @@
                    />
         </Viewbox>
 
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="5" 
+                  VerticalAlignment="Bottom" MaxHeight="35" Margin="0,0,0,15" >
+
+            <TextBlock 
+            x:Name="TextBlock_ResultDetail"
+            Grid.Column="1" Grid.Row="5"
+             Text="" 
+            HorizontalAlignment="Center" 
+                   />
+        </Viewbox>
+
+
+
         <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" 
-                 VerticalAlignment="Top" MaxHeight="120" >
+                 VerticalAlignment="Top" MaxHeight="120" Margin="0,0,15,0" >
             <TextBlock x:Name="txtblk_Jikyuu" />
 
         </Viewbox>

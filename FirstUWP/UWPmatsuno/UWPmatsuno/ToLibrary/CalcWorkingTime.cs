@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+
+using System.Diagnostics;//assert用
+
 namespace UWPmatsuno.ToLibrary
 {
     /// <summary>
@@ -16,58 +21,51 @@ namespace UWPmatsuno.ToLibrary
     public static class CalcWorkingTime
     {
 
-        //TimeSpan型から休憩時間を差し引く
-        //戻り値：差し引いた休憩時間（分）
-        public static int SubBreakTime(ref TimeSpan ts)
+        /// <summary>
+        /// 労働時間を表すTimeSpan型のオブジェクトから、休憩時間を引く。通常労働時間から優先してひく。
+        /// 休憩時間のルール　:　出社から退社が５時間超の場合３０分、１０時間超の場合１時間
+        /// </summary>
+        /// <param name="tsNormal">通常労働時間（深夜でない）</param>
+        /// <param name="tsNight">深夜労働時間</param>
+        /// <returns>差し引いた分数(Minuites)</returns>
+        public static int SubBreakTime(ref TimeSpan tsNormal , ref TimeSpan tsNight)
         {
-            if (ts.TotalMinutes < 0)
+            TimeSpan tsTotal = tsNormal + tsNight;
+            TimeSpan tsToCompare;
+            int minSub;//差し引く時間
+            if ((tsNormal.TotalMinutes < 0) || (tsNight.TotalMinutes < 0))
             {
                 throw new Exception("SubBreakTimeの引数が無効な値です");
             }
 
-            TimeSpan ts2 = new TimeSpan(5, 0, 0);
-            if (ts < ts2) return 0;//5時間未のとき：引かない
+            tsToCompare = new TimeSpan(5, 0, 0);
+            if (tsTotal < tsToCompare) return 0;//5時間未のとき：引かない。
 
-
-           ts2 = new TimeSpan(5, 30, 0);
-            if (ts < ts2)//5時間以上５時間半未満のとき：５時間分を超えた分ひく
+            tsToCompare = new TimeSpan(5, 30, 0);
+            if (tsTotal < tsToCompare)//5時間以上５時間半未満のとき：５時間分を超えた分ひく
             {
-                int minOver = ts.Minutes;
-                ts = new TimeSpan(5, 0, 0);
-                return minOver;
+                minSub = tsTotal.Minutes;
+                SubPrior(minSub, ref tsNormal ,ref tsNight );
+                return minSub;
             }
-
-            ts2 = new TimeSpan(10, 00, 0);
-            if (ts < ts2)//５時間半以上１０時間未満のとき：３０分ひく
+            tsToCompare = new TimeSpan(10, 00, 0);
+            if (tsTotal < tsToCompare)//５時間半以上１０時間未満のとき：３０分ひく
             {
-                double totalmin;
-                int hours, min;
-                totalmin = ts.TotalMinutes - 30;//30分ひく
-                hours = (int)totalmin / 60;
-                min = (int)totalmin % 60;
-
-                ts = new TimeSpan(hours, min , 0);
-                return 30;
+                minSub = 30;
+                SubPrior(minSub, ref tsNormal, ref tsNight);
+                return minSub;
             }
-
-            ts2 = new TimeSpan(10, 30, 0);
-            if (ts < ts2)//10時間以上１０時間30分未満のとき：３０分+１０時間を超えた分だけひく
+            tsToCompare = new TimeSpan(10, 30, 0);
+            if (tsTotal < tsToCompare)//10時間以上１０時間30分未満のとき：３０分+１０時間を超えた分だけひく
             {
-                double totalmin;
-                int hours, min , minOver;
-                minOver = ts.Minutes;
-                totalmin = ts.TotalMinutes - 30 - minOver;//30分と１０時間を超えた分ひく
-                hours = (int)totalmin / 60;
-                min = (int)totalmin % 60;
-
-                ts = new TimeSpan(hours , min, 0);
-                return 30 + minOver;
+                minSub = 30 + tsTotal.Minutes;
+                SubPrior(minSub, ref tsNormal, ref tsNight);
+                return minSub;
             }
-
-
-//１０時間半以上のとき：１時間ひく
-ts = new TimeSpan(ts.Hours - 1, ts.Minutes, 0);
-            return 60;
+            //１０時間半以上のとき：１時間ひく
+            minSub = 60;
+            SubPrior(minSub, ref tsNormal, ref tsNight);
+            return minSub;
         }
 
 
@@ -146,6 +144,31 @@ ts = new TimeSpan(ts.Hours - 1, ts.Minutes, 0);
             
         }//NightWorkメソッド
 
+
+        /// <summary>
+        /// TimeSpan型のオブジェクトから、第一引数で指定した分(Minutes)をさしひく
+        /// まずts1から引いて、余ったら残りをts2からひく
+        /// </summary>
+        /// <param name="iSubMin">差し引く分数(minutes)</param>
+        /// <param name="ts1">優先して引かれる</param>
+        /// <param name="ts2">2番目に優先して引かれる</param>
+        private static void SubPrior(int iSubMin , ref TimeSpan ts1, ref TimeSpan ts2)
+        {
+            Debug.Assert(  (ts1.TotalMinutes + ts2.TotalMinutes) >= iSubMin);//引き切れる
+
+            TimeSpan tsSub = TimeSpan.FromMinutes(iSubMin);
+
+            if (tsSub <= ts1)
+            {//ts1から全部引ける時　
+                ts1 = ts1 - tsSub; return;
+            }
+            else
+            {//ts1から引いても余る時
+                tsSub = tsSub - ts1;//余りを
+                ts2 = ts2 - tsSub;//ts2から引く
+                ts1 = TimeSpan.Zero;//ts1はゼロ
+            }
+        }
 
 
     }//CalcWorkingTimeクラス

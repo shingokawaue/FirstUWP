@@ -16,7 +16,8 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="5*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
 
         </Grid.RowDefinitions>
 
@@ -80,13 +81,13 @@
         </Viewbox>
 
 
-        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" 
-                  MaxHeight="50" HorizontalAlignment="Left" >
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4"  
+                  MaxHeight="50" HorizontalAlignment="Right" Margin="0,0,20,0" >
             <Button x:ConnectionId='2' x:Name="btnCancel" Content="キャンセル"                        />
 
         </Viewbox>
 
-        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3"  
+        <Viewbox  Stretch="Uniform" Grid.Row="7" Grid.Column="5"   
                   MaxHeight="50" HorizontalAlignment="Right" Margin="0,0,20,0">
             <Button x:ConnectionId='1' x:Name="btnOK" Content="OK"                    />
 

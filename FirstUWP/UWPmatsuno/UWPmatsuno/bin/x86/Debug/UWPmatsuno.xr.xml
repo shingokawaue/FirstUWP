@@ -30,6 +30,14 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="Child" />
       <RootProperty Name="MaxWidth" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -42,11 +50,8 @@
       <RootProperty Name="IsOn" />
       <RootEvent Name="Toggled" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootEvent Name="Click" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
     <RootType FullName="UWPmatsuno.MainPage" />
+    <RootType FullName="UWPmatsuno.SettingPage" />
   </Roots.RootTypes>
 </Roots>

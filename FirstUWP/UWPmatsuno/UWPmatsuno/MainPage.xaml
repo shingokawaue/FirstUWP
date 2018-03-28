@@ -70,17 +70,17 @@
             <TextBox  x:Name="TextBox_Taisha" />
         </Viewbox>
 
-        
-        
-        
-        <Viewbox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" >
+
+
+
+        <Viewbox Stretch="Uniform" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3"  >
             <Button 
                 x:Name="Button_Calc" Content="計算"
             Click="Button_Calc_Click"
                 />
         </Viewbox>
 
-        <Viewbox Grid.Row="3" Grid.Column="4"  >
+        <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="4"  >
 
             <ToggleSwitch 
                 x:Name="ToSw_Kyuukei" 
@@ -107,6 +107,18 @@
             HorizontalAlignment="Center" VerticalAlignment="Top"
                    FontSize="48"
                    />
+        </Viewbox>
+
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" 
+                 VerticalAlignment="Top" MaxHeight="120" >
+            <TextBlock x:Name="txtblk_Jikyuu" />
+
+        </Viewbox>
+        
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3"  
+                  MaxHeight="50" HorizontalAlignment="Right" Margin="0,0,20,0">
+            <Button x:Name="btnSettei" Content="設定" Click="btnSettei_Click" />
+
         </Viewbox>
 
     </Grid>

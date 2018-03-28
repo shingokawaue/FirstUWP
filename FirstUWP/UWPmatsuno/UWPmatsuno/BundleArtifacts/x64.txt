@@ -1,0 +1,2 @@
+MainPackage=C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\bin\x64\Release\UWPmatsuno_1.0.4.0_x64.appx
+SymbolPackage=C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\AppPackages\UWPmatsuno_1.0.4.0_Test\UWPmatsuno_1.0.4.0_x64.appxsym

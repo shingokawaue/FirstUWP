@@ -13,9 +13,9 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-
+using Windows.Storage;
 using UWPmatsuno.ToLibrary; //自作クラス
-
+using Windows.UI.Popups;
 // 空白ページの項目テンプレートについては、https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x411 を参照してください
 
 namespace UWPmatsuno
@@ -25,13 +25,34 @@ namespace UWPmatsuno
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        int jikyuu;
         bool bIsCalculated = false;
+        ApplicationDataContainer container = ApplicationData.Current.LocalSettings;
+
 
         public MainPage()
         {
             this.InitializeComponent();
-        }
 
+            //Suspendingイベントにイベントハンドラを結びつける
+            App.Current.Suspending += this.OnSuspending;
+
+
+            if (container.Values.ContainsKey("Jikyuu"))
+            {
+                jikyuu = (int)container.Values["Jikyuu"];
+            }
+            else
+            {
+                jikyuu = 1000;
+                container.Values["Jikyuu"] = 1000;
+            }
+            txtblk_Jikyuu.Text = "時給 : " + jikyuu.ToString();
+
+            ToSw_Kyuukei.IsOn = (container.Values["ToSw_Kyuukei.IsOn"].ToString() == "True");
+
+        }
         /// ////////////////////////////////////////////////イベントハンドラ//////////////////////////////////////////////////////////////////
 
 
@@ -44,6 +65,45 @@ namespace UWPmatsuno
         {
             if (bIsCalculated == true) CalcDailyWage();
         }
+
+        private void btnSettei_Click(object sender, RoutedEventArgs e)
+        {
+
+            SaveSettings();
+            this.Frame.Navigate(typeof(SettingPage));
+        }
+
+        // ページ遷移直後にOnNavigatedToイベントハンドラーが呼び出される
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            // このようにe.Parameterで前のページから渡された値を取得できます。
+            // 値はキャストして取り出します。
+            string param = e.Parameter as string;
+            if (param == "SettingPage")
+            {
+                jikyuu = (int)container.Values["Jikyuu"];
+                LoadSettings();
+            }
+            base.OnNavigatedTo(e);
+
+            
+        }
+
+
+        //4. Suspendingイベントのイベントハンドラ
+        private void OnSuspending(object sender, Windows.ApplicationModel.SuspendingEventArgs e)
+        {
+            SaveSettings();
+        }
+
+
+
+
+
+
+
+
+
 
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -110,7 +170,7 @@ namespace UWPmatsuno
                 }
 
                 TextBlock_ResultMoney.Text = " 給料:\\" +
-                    String.Format("{0:#,0}", (ts.Hours * 1000 + ts.Minutes * 1000 / 60)) +
+                    String.Format("{0:#,0}", (ts.Hours * jikyuu + ts.Minutes * jikyuu / 60)) +
                     ".-";
 
                 bIsCalculated = true;
@@ -128,12 +188,26 @@ namespace UWPmatsuno
             TextBlock_ResultTS.Text = "";
         }
 
+        private void SaveSettings()
+        {
+            container.Values["TextBox_Shukkin.Text"] = TextBox_Shukkin.Text;
+            container.Values["TextBox_Taisha.Text"] = TextBox_Taisha.Text;
+            container.Values["ToSw_Kyuukei.IsOn"] = ToSw_Kyuukei.IsOn.ToString();
+            container.Values["TextBlock_Message.Text"] = TextBlock_Message.Text;
+            container.Values["TextBlock_ResultTS.Text"] = TextBlock_ResultTS.Text;
+            container.Values["TextBlock_ResultMoney.Text"] = TextBlock_ResultMoney.Text;
+            container.Values["bIsCalculated"] = bIsCalculated.ToString();
+        }
 
-
-
-
-
-
-
+        private void LoadSettings()
+        {
+            TextBox_Shukkin.Text = container.Values["TextBox_Shukkin.Text"].ToString();
+            TextBox_Taisha.Text = container.Values["TextBox_Taisha.Text"].ToString();
+            ToSw_Kyuukei.IsOn = (container.Values["ToSw_Kyuukei.IsOn"].ToString() == "True");
+            TextBlock_Message.Text = container.Values["TextBlock_Message.Text"].ToString();
+            TextBlock_ResultTS.Text = container.Values["TextBlock_ResultTS.Text"].ToString();
+            TextBlock_ResultMoney.Text = container.Values["TextBlock_ResultMoney.Text"].ToString();
+            bIsCalculated = (container.Values["bIsCalculated"].ToString() == "True");
+        }
     }
 }

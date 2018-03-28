@@ -36,7 +36,7 @@
 
         <Viewbox  Stretch="Uniform" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" MaxWidth="400">
 
-            <TextBlock x:ConnectionId='9' 
+            <TextBlock x:ConnectionId='11' 
             x:Name="TextBlock_Message"
              Text="出勤、退社時間" 
             HorizontalAlignment="Center" VerticalAlignment="Top"
@@ -47,7 +47,7 @@
         
 
         <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="2" MaxWidth="200" >
-            <TextBlock x:ConnectionId='8' 
+            <TextBlock x:ConnectionId='10' 
             x:Name="TextBlock_Shukkin" 
              Text="出勤時間" 
                    />
@@ -55,34 +55,34 @@
 
 
         <Viewbox  Stretch="Uniform" Grid.Column="3" Grid.Row="2" MaxWidth="200" >
-                <TextBlock x:ConnectionId='7' 
+                <TextBlock x:ConnectionId='9' 
             x:Name="TextBlock_Taisha"
              Text="退社時間" 
                    />
         </Viewbox>
 
         <Viewbox  Stretch="Uniform" Grid.Column="1" Grid.Row="3" MaxWidth="200">
-            <TextBox x:ConnectionId='6' x:Name="TextBox_Shukkin" />
+            <TextBox x:ConnectionId='8' x:Name="TextBox_Shukkin" />
         </Viewbox>
 
 
         <Viewbox  Stretch="Uniform" Grid.Column="3" Grid.Row="3" MaxWidth="200">
-            <TextBox x:ConnectionId='5'  x:Name="TextBox_Taisha" />
+            <TextBox x:ConnectionId='7'  x:Name="TextBox_Taisha" />
         </Viewbox>
 
-        
-        
-        
-        <Viewbox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" >
-            <Button x:ConnectionId='4' 
+
+
+
+        <Viewbox Stretch="Uniform" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3"  >
+            <Button x:ConnectionId='6' 
                 x:Name="Button_Calc" Content="計算"
                                      
                 />
         </Viewbox>
 
-        <Viewbox Grid.Row="3" Grid.Column="4"  >
+        <Viewbox Stretch="Uniform" Grid.Row="3" Grid.Column="4"  >
 
-            <ToggleSwitch x:ConnectionId='3' 
+            <ToggleSwitch x:ConnectionId='5' 
                 x:Name="ToSw_Kyuukei" 
                 Header="休憩時間をひく" IsOn="True"                               
                 />
@@ -90,7 +90,7 @@
 
         <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="0" >
 
-            <TextBlock x:ConnectionId='2' 
+            <TextBlock x:ConnectionId='4' 
             x:Name="TextBlock_ResultTS"
              Text="" 
             HorizontalAlignment="Center" VerticalAlignment="Top"
@@ -100,13 +100,25 @@
 
         <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3"  >
 
-            <TextBlock x:ConnectionId='1' 
+            <TextBlock x:ConnectionId='3' 
             x:Name="TextBlock_ResultMoney"
             Grid.Column="1" Grid.Row="5"
              Text="" 
             HorizontalAlignment="Center" VerticalAlignment="Top"
                    FontSize="48"
                    />
+        </Viewbox>
+
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3" 
+                 VerticalAlignment="Top" MaxHeight="120" >
+            <TextBlock x:ConnectionId='2' x:Name="txtblk_Jikyuu" />
+
+        </Viewbox>
+        
+        <Viewbox  Stretch="Uniform" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="3"  
+                  MaxHeight="50" HorizontalAlignment="Right" Margin="0,0,20,0">
+            <Button x:ConnectionId='1' x:Name="btnSettei" Content="設定"                         />
+
         </Viewbox>
 
     </Grid>

@@ -1,1 +1,1 @@
-C:\ShingoRepos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\UWPmatsuno.csproj;x86
+C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\UWPmatsuno.csproj;x86

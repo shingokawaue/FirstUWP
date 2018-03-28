@@ -22,6 +22,7 @@ namespace UWPmatsuno
     /// </summary>
     sealed partial class App : Application
     {
+
         /// <summary>
         /// 単一アプリケーション オブジェクトを初期化します。これは、実行される作成したコードの
         ///最初の行であるため、main() または WinMain() と論理的に等価です。

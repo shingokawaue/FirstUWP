@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</Source>
+    <SmallTileSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</SmallTileSource>
+    <MediumTileSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</MediumTileSource>
+    <WideTileSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</WideTileSource>
+    <LargeTileSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</LargeTileSource>
+    <AppIconSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</AppIconSource>
+    <SplashScreenSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</SplashScreenSource>
+    <PackageLogoSource>C:\repos\FirstUWP\FirstUWP\UWPmatsuno\UWPmatsuno\Assets\Calc_DailyWage_Apli_icon.png</PackageLogoSource>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>
